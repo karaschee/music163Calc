@@ -74,7 +74,7 @@ if (!window.jc_run) {
       console.log(data);
       var result = '';
       Object.keys(data).forEach(function(year){
-        result += '<p>' + year + '年 播放数 ' + data[year]['playsCount'] + ' 赞数 ' + data[year]['playsCount'] + '</p>';
+        result += '<p>' + year + '年 播放数 ' + data[year]['playsCount'] + ' 赞数 ' + data[year]['likesCount'] + '</p>';
       });
       uiContent[0].innerHTML = "<p>计算完成</p>" + result;
 
