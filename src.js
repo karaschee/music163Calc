@@ -93,7 +93,6 @@ if (!window.jc_run) {
       var curBody = getIframeBody();
 
       var rows = curBody.find('.m-table.m-table-program tr');
-      console.log('rows', rows);
       rows.each(function(i){
         var row = $(this);
         var playsCount = parseReadableNumber(row.find('.col3').text().slice(2));
